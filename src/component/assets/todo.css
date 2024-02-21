@@ -1,0 +1,68 @@
+.todo{
+    width: 600px;
+    margin: auto;
+    height: 600px;
+    background-color: rgb(37, 38, 43);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    min-height: 732px;
+    padding: 0px 44px ;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+}
+.todo-add{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.todo-header{
+    font-size: 600;
+    font-size: 36px;
+    margin-top: 84px;
+    font-weight: 600;
+}
+
+/* Basic styles for the todo-input */
+.todo-input {
+
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 40px;
+  width: 100%;
+border: none;
+
+  background-color: rgb(48, 51, 65);
+}
+
+/* Styles for the todo-input when it is focused */
+.todo-input:focus {
+  border-color: #ff0000;
+  outline: none;
+  
+}
+
+/* Styles for the todo-input when it is not empty */
+.todo-input:not(:placeholder-shown) {
+  padding-top: 14px;
+  padding-bottom: 6px;
+}
+
+/* Styles for the todo-input placeholder */
+
+.todo-btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    color: #acd7ff;
+    background-color: #242fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    
+    transition: box-shadow 0.3s;
+  }
